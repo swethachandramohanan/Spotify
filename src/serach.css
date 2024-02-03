@@ -1,0 +1,16 @@
+.tilted-image-container {
+    position: absolute;
+    width: 90px; /* Adjust the width as needed */
+    height: 90px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+
+  .tilted-image {
+    position: absolute;
+   top: 0px;
+    left: 0;
+    bottom: 5px;
+    width: 100px; /* Adjust the image width as needed */
+    height: auto;
+    transform: rotate(-15deg); /* Adjust the tilt angle as needed */
+  }

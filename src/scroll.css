@@ -1,0 +1,78 @@
+ .play {
+    position: relative;
+  }
+  .play .fa {
+    position: absolute;
+    padding:10px;
+    background-color: #1db954;
+    border-radius: 50%;
+    opacity: 0;
+   
+  }
+  .play .fa {
+    opacity: 1;
+
+  }
+  .left{
+    margin-right: 100px;
+  }
+  .dot{
+    position: absolute;
+    opacity: 0;
+    opacity: 1;
+  }
+  .table {
+    border-spacing: 0.5rem;
+
+  }
+  .line {
+    border-bottom: px solid #808080; 
+   
+  }
+
+  .table td {
+    padding-left: 90px; 
+  }
+  
+  .table {
+  
+    border-collapse: collapse;
+  }
+  
+  .cont {
+    transition: background-color 0.3s;
+  }
+  
+  .cont:hover {
+    background-color: #2c2c2c;
+  }
+  
+  .hovered-row {
+    background-color: #2c2c2c;
+  }
+  
+  .hovered-row i {
+    color: #1db954; 
+    cursor: pointer;
+  }
+  
+
+  .bi-play-fill {
+    font-size: 1.5em;
+   
+  }
+  /* NowPlaying.css */
+
+.now-playing-container {
+  background-color: #282c34;
+
+  border-radius: 10px;
+  
+  position: relative; /* Fix the container in place */
+  bottom: 0; /* Position it at the bottom of the viewport */
+  left: 20px; 
+  width: 100%; /* Take the full width of the viewport */
+  z-index: 1000; /* Set a high z-index to ensure it appears above other content */
+}
+
+/* Rest of the styles remain the same */
